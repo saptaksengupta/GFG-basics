@@ -1,9 +1,110 @@
 <!DOCTYPE html>
     <head>
-    <title>Js Fundamentals</title>
+        <title>HTML basics</title>
+        <style>
+            h1,h2,h3,h4 {
+                color: orange;
+            }
+
+            /* .className {
+                css rules
+            } */
+
+            /* #idOfElement {
+                css rules
+            } */
+
+            .class-of-blue {
+                background-color: blue;    
+                color: aliceblue;
+                padding: 15px;
+                margin: 15px;
+                text-align: center;
+                height: 100%;
+                width: 400px;
+            }
+
+            .basic-ul li{
+                list-style: none;
+            }
+        </style>
     </head>
     <body>
-        <h1>Js Basics</h1>
+        <!-- <h1 >HTML basic</h1>
+        <h2 >HTML Basic</h2>
+        
+        <h3>HTML Basic</h3>
+        <h4>HTML Basic</h4>
+
+        <h1>I am another H1 tag</h1> -->
+
+        <div class="parent">
+            <div class="class-of-blue" style="background-color: red; ">
+                I am Div one
+            </div>
+    
+            <div class="class-of-blue">
+                I am Div two
+            </div>
+        </div>
+
+        <div class="list-parent">
+            <ul class="basic-ul">
+              <li>I am list 1</li>  
+              <li>I am list 2</li>  
+              <li>I am list 3</li>  
+              <li>I am list 4</li>  
+              <li>I am list 5</li>  
+            </ul>
+        </div>
+
+        <p>
+            alsjdasldjaslkd asd alshdalsh dalshd alhdl ashalshd alshaslh daslhd akslhaslkhaslkhlha lksah lasd lashlhsalkahsd klash
+            alsjdasldjaslkd asd alshdalsh dalshd alhdl ashalshd alshaslh daslhd akslhaslkhaslkhlha lksah lasd lashlhsalkahsd klash
+            alsjdasldjaslkd asd alshdalsh dalshd alhdl ashalshd alshaslh daslhd akslhaslkhaslkhlha lksah lasd lashlhsalkahsd klash
+        </p>
+
+        <form class="my-form">
+            <label>First Name:</label>
+            <input type="text" name="firstName" />
+
+            <label>Last Name:</label>
+            <input type="text" name="lastName" />
+
+            <label>Remember Me:</label>
+            <input type="checkbox" name="rememberMe" />
+
+            <label>Gender:</label>
+
+            <label>Male:</label>
+            <input type="radio" name="gender" value="male">
+
+            <label>FeMale:</label>
+            <input type="radio" name="gender" value="female">
+
+            <label>Other:</label>
+            <input type="radio" name="gender" value="other">
+
+            <button type="button">Click Me!</button>
+
+            <div>
+                <select name="state">
+                    <option value="1">State 1</option>
+                    <option value="2">State 2</option>
+                    <option value="3">State 3</option>
+                    <option value="4">State 4</option>
+                </select>
+            </div>
+
+
+            <label>DOB:</label>
+            <input type="date" name="dateOfBirth"/> 
+        </form>
+
+        <!-- JavaScripts -->
         <script src="./fundamental.js"></script>
+        <script src="./advanced.js"></script>
     </body>
 </html>
+
+
